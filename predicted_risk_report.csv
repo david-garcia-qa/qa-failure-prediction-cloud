@@ -1,0 +1,13 @@
+test_name,module,bug_severity,failed_last_run,failed_last_3_runs,flaky,predicted_fail_probability,risk_level
+test_payment_3ds_flow,payment,critical,1,3,1,0.79369044,HIGH
+test_checkout_card,payment,critical,1,3,1,0.7765328,HIGH
+test_checkout_address,payment,high,0,2,1,0.73154837,HIGH
+test_rate_limiter_lockout,security,critical,1,2,1,0.7249605,HIGH
+test_login_mfa,auth,high,1,2,1,0.71710294,HIGH
+test_resend_sms_code,auth,high,0,1,1,0.6481688,MEDIUM
+test_change_password,account,medium,1,1,0,0.62724715,MEDIUM
+test_password_reset,auth,medium,0,1,0,0.60589105,MEDIUM
+test_audit_log_written,security,high,0,1,0,0.59537053,MEDIUM
+test_update_profile,account,low,0,0,0,0.56392765,MEDIUM
+test_remove_item_cart,cart,low,0,0,0,0.533,MEDIUM
+test_add_to_cart,cart,low,0,0,0,0.5234924,MEDIUM

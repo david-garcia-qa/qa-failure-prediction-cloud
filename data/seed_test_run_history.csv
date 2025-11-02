@@ -1,0 +1,13 @@
+test_name,module,execution_time_ms,failed_last_run,failed_last_3_runs,flaky,bug_severity,last_status,will_fail_next_run
+test_login_mfa,auth,520,1,2,1,high,fail,1
+test_password_reset,auth,310,0,1,0,medium,pass,0
+test_checkout_card,payment,740,1,3,1,critical,fail,1
+test_add_to_cart,cart,150,0,0,0,low,pass,0
+test_checkout_address,payment,680,0,2,1,high,pass,1
+test_update_profile,account,240,0,0,0,low,pass,0
+test_change_password,account,295,1,1,0,medium,fail,1
+test_resend_sms_code,auth,410,0,1,1,high,pass,0
+test_remove_item_cart,cart,180,0,0,0,low,pass,0
+test_payment_3ds_flow,payment,820,1,3,1,critical,fail,1
+test_rate_limiter_lockout,security,605,1,2,1,critical,fail,1
+test_audit_log_written,security,330,0,1,0,high,pass,0
